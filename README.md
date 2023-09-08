@@ -3,16 +3,37 @@
  * @Date: 2023-05-09 22:31:06
  * @Description: Coding something
 -->
-# [Ebuild Alins Template](https://github.com/theajack/ebuild-template-alins)
+# [Ebuild Alins Template](https://github.com/alinsjs/ebuild-template-alins)
 
-Alins template
+[Alins](https://github.com/alinsjs/alins) template
 
-[ebuild-cli](https://github.com/theajack/ebuild)
+### 1. create-alins
+
+```
+npm create alins
+```
+
+### 2. clone
+
+```
+git clone https://github.com/alinsjs/ebuild-template-alins.git
+```
+
+### 3. ebuild-cli
+
+```
+npm i ebuild-cli -g
+```
 
 ```
 ebuild init <name>
+```
 
-cd <name>
-pnpm i
+
+## Install And Dev
+
+```
+cd <alins-project>
+npm i
 npm run dev
 ```

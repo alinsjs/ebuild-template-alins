@@ -4,13 +4,10 @@
  * @Description: Coding something
  */
 import { defineConfig } from 'vite';
-// loadEnv
 import alins from 'vite-plugin-alins';
 import legacy from '@vitejs/plugin-legacy';
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-    // const isDev = mode === 'development';
     return {
         base: '/',
         plugins: [
